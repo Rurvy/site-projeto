@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Funnel Sans", Arial;
+}
+
+body {
+    width: 100%;
+    background-image: url(backg.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#cabecalho {
+    position: sticky;
+    background-color: #000;
+    top: 0;
+}
+
+#cabecalho #clogo img {
+    width: 300px;
+    margin: auto;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    transition: 0.4s;
+}
+
+#cabecalho #menu a:hover {
+    color: rgb(255, 208, 0);
+
+}
+
+#cabecalho #menu ul li {
+    list-style: none;
+    position: relative;
+}
+
+.post #slide1 {
+    color: #fff;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(gordian.jpg);
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.post #slide1 h1 {
+    font-size: 80px;
+    padding-bottom: 30px;
+    padding-left: 700px;
+}
+
+.post #slide1 p {
+    font-size: 20px;
+    padding-left: 780px;
+    padding-right: 80px;
+}
+
+.post #slide2 {
+    color: #fff;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(slide2.jpeg);
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.post #slide2 h1 {
+    font-size: 80px;
+    padding-bottom: 30px;
+    padding-right: 740px;
+}
+
+.post #slide2 p {
+    font-size: 20px;
+    padding-right: 770px;
+    padding-left: 20px;
+}
+
+.post #slide3 {
+    color: #fff;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(atrium.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 70px;
+}
+
+.post #slide3 h1 {
+    font-size: 80px;
+    padding-bottom: 30px;
+    padding-left: 700px;
+}
+
+.post #slide3 p {
+    font-size: 20px;
+    padding-left: 780px;
+    padding-right: 80px;
+}
+
+.post #end {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+}
+
+#scroll {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+#scroll h1 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#scroll p {
+    margin-bottom: 50px;
+}
+
+#familly {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+#familly h1 {
+    margin-bottom: 40px;
+}
+
+#cpage {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#cpage h1 {
+    margin-bottom: 20px;
+}
+
+#cpage p {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#cpage iframe {
+    margin-bottom: 50px;
+}
+
+#home {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#home p {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+}
+
+#home h1 {
+    padding-bottom: 50px;
+}
+
+#home h2 {
+    font-size: 50px;
+    padding-top: 40px;
+}
